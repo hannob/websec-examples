@@ -1,12 +1,13 @@
+<!DOCTYPE html><html lang="en">
+<title>Login</title>
 <?php
 
 require_once("config.inc.php");
 
 if (!array_key_exists('user', $_POST)) {
-    ?>
-<form method="POST">
-User:<input type="text" name="user" value="admin"><br>
-Pass:<input type="text" name="pass" value=""><br>
+    ?><form method="POST">
+Username:<input name="user" value="admin"><br>
+Password:<input name="pass"><br>
 <input type=submit>
 </form>
 <?php
