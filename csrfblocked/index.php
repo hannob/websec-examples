@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en"><head><title>Example</title></head>
 <?php
 
-$colors=array("green", "red", "blue", "yellow", "white");
+$colors=["green", "red", "blue", "yellow", "white"];
 
-session_set_cookie_params(array('path' => '/', 'secure' => true,
-'httponly' => true, 'samesite' => 'Lax'));
+session_set_cookie_params(['path' => '/', 'secure' => true,
+'httponly' => true, 'samesite' => 'Lax', ]);
 
 session_start();
 
